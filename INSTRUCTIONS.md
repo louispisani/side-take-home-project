@@ -16,7 +16,7 @@ process.
 The objective of this assignment is to build a simple React application
 implementing a property list view using data returned from the SimplyRETS API
 and matching the following [Figma design
-mockup](https://www.figma.com/file/ueqyfCFkBzg14SAoBUGqaN/Side-Take-Home---Nextjs-SimplyRETS).
+mockup](https://www.figma.com/design/FXPBY3hFfCfl8ZM8SmrbLV/Eng-Take-Home-Test).
 SimplyRETS is an API commonly used in real estate and you will need to use it to
 retrieve the properties data.
 
@@ -131,7 +131,7 @@ In this boilerplate, you will find:
 ## Design Mockup
 
 For the mockup, use [this Figma
-design](https://www.figma.com/file/ueqyfCFkBzg14SAoBUGqaN/Side-Take-Home---Nextjs-SimplyRETS).
+design](https://www.figma.com/design/FXPBY3hFfCfl8ZM8SmrbLV/Eng-Take-Home-Test).
 Both desktop & mobile are included.
 
 The favorite heart icons are already provided as SVGs in the `/public`
