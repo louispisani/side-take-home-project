@@ -102,7 +102,7 @@ There is no right or wrong answer here. Using AI extensively is fine. Using no A
 
 # Getting Started
 
-With Node 20.9.0 or newer installed (Node 22 LTS recommended; see `.nvmrc`), run the following commands:
+With Node 20.9.0 or newer installed (Node 24 LTS recommended; see `.nvmrc`), run the following commands:
 
 ```sh
 yarn && yarn dev
@@ -133,6 +133,9 @@ In this boilerplate, you will find:
 For the mockup, use [this Figma
 design](https://www.figma.com/design/FXPBY3hFfCfl8ZM8SmrbLV/Eng-Take-Home-Test).
 Both desktop & mobile are included.
+
+The file is password-protected (read-only access for this take-home):
+`angle-fly-cloth-decaf`
 
 The favorite heart icons are already provided as SVGs in the `/public`
 directory. The font used in the mockup, Open Sans, is already included in the app globally.
