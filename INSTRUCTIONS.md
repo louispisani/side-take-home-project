@@ -16,7 +16,7 @@ process.
 The objective of this assignment is to build a simple React application
 implementing a property list view using data returned from the SimplyRETS API
 and matching the following [Figma design
-mockup](https://www.figma.com/file/ueqyfCFkBzg14SAoBUGqaN/Side-Take-Home---Nextjs-SimplyRETS).
+mockup](https://www.figma.com/design/FXPBY3hFfCfl8ZM8SmrbLV/Eng-Take-Home-Test). pw: `angle-fly-cloth-decaf`
 SimplyRETS is an API commonly used in real estate and you will need to use it to
 retrieve the properties data.
 
@@ -82,11 +82,27 @@ Before getting started, please read this document carefully.
 
 Once you are satisfied with your assignment, please publish your code and README
 to your personal Git repository and send the repository link to the email our recruiter has
-provided. Please do not create a fork or PR in the assignment repository.
+provided. Please *do not* create a fork or PR in the assignment repository.
+
+## AI Tool Usage Policy
+
+**You are welcome and encouraged to use AI tools** (GitHub Copilot, Claude, ChatGPT, Cursor, or any other) during this assignment. We use AI tools daily on this team and we're interested in how you work with them, not whether you avoid them.
+
+However, we ask for full transparency in your submission:
+
+1. **Commit any agent or skill files you created.** If you used Claude Code with custom agents (`.claude/agents/*.md`) or skills (`.claude/skills/*/SKILL.md`) to scaffold, review, or guide your work, commit those files in your repository. If you used a different tool with a similar concept (Cursor rules, Copilot instructions, etc.), include those as well.
+
+2. **Add an `AI_USAGE.md` file** at the root of your repository describing:
+   - Which AI tools you used and for what purpose (e.g., "used Claude to generate the initial schema, reviewed and adjusted the index choices manually")
+   - Any suggestions you accepted as-is vs. modified
+   - Any suggestions you rejected and why
+   - Anything the AI got wrong that you had to correct
+
+There is no right or wrong answer here. Using AI extensively is fine. Using no AI is fine. What we're evaluating is your judgment — whether you understand and can defend the code you're submitting, and whether you can identify when AI output needs correction. We will ask about your AI_USAGE.md directly in the technical deep-dive.
 
 # Getting Started
 
-With Node 18.17.0 installed, run the following commands:
+With Node 20.9.0 or newer installed (Node 24 LTS recommended; see `.nvmrc`), run the following commands:
 
 ```sh
 yarn && yarn dev
@@ -110,14 +126,16 @@ In this boilerplate, you will find:
 - Inside the `package.json`, in addition to NextJS dependencies, we've added the
   following packages:
   - `prettier`: simple code formating
-  - `bootstrap`: styles reset baseline
   - `@react-google-maps/api`: for rendering google maps
 
 ## Design Mockup
 
 For the mockup, use [this Figma
-design](https://www.figma.com/file/ueqyfCFkBzg14SAoBUGqaN/Side-Take-Home---Nextjs-SimplyRETS).
+design](https://www.figma.com/design/FXPBY3hFfCfl8ZM8SmrbLV/Eng-Take-Home-Test).
 Both desktop & mobile are included.
+
+The file is password-protected (read-only access for this take-home):
+`angle-fly-cloth-decaf`
 
 The favorite heart icons are already provided as SVGs in the `/public`
 directory. The font used in the mockup, Open Sans, is already included in the app globally.
@@ -135,3 +153,8 @@ data, query parameters, and response bodies will all work the same.
 Please use the following endpoint: https://api.simplyrets.com/properties. More
 information can found in the [SimplyRETS
 documentation](https://docs.simplyrets.com/api/index.html#/Listings/get_properties).
+
+Note: if you use `next/image` to render listing photos, the boilerplate's
+[`next.config.js`](next.config.js) already whitelists the SimplyRETS trial
+photo host (`*.cloudfront.net`). If you point at a different image host,
+extend `images.remotePatterns` accordingly.
