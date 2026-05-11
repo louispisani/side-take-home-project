@@ -16,7 +16,7 @@ process.
 The objective of this assignment is to build a simple React application
 implementing a property list view using data returned from the SimplyRETS API
 and matching the following [Figma design
-mockup](https://www.figma.com/design/FXPBY3hFfCfl8ZM8SmrbLV/Eng-Take-Home-Test).
+mockup](https://www.figma.com/design/FXPBY3hFfCfl8ZM8SmrbLV/Eng-Take-Home-Test). pw: `angle-fly-cloth-decaf`
 SimplyRETS is an API commonly used in real estate and you will need to use it to
 retrieve the properties data.
 
