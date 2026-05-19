@@ -61,7 +61,7 @@ Before getting started, please read this document carefully.
   etc...
 - This application is expected to be built utilizing current patterns and best
   practices of React (i.e. hooks). _Please do not use any other 3rd-party state
-  management libraries such as Redux or Mobx._ `react-query` is okay.
+  management libraries such as Redux or Mobx._
 - Explain any design decisions (_including items left out due to time
   constraints_) in the README.md file
 
