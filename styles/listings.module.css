@@ -120,7 +120,7 @@
   font-weight: 700;
   line-height: 32px;
   white-space: nowrap;
-  margin: 0px 0 4px 0;
+  margin: 0 0 4px;
 
 }
 
@@ -342,7 +342,7 @@
   }
 
   .imageWrapper {
-    aspect-ratio: 315/ 280;
+    aspect-ratio: 315 / 280;
   }
 
   .mobileToggle {

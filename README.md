@@ -24,10 +24,6 @@
 - Semantic HTML and baseline accessibility considerations were included throughout the implementation, I would add accessibility enhancements and loading skeleton states could be added with more time.
 - I would add favorite functionality to map listings with more time as well
 
-## AI Usage
-
-I used AI tools for test scaffolding, some refactoring, cleanup, and a small amount of utility logic assistance (for example, formatting helpers). The overall application architecture, component logic, responsive behavior, map interactions, and styling implementation were designed and implemented manually, while AI was used similarly to how I would use modern developer tooling in day-to-day development workflows.
-
 ## Local Setup
 
 Create a `.env.local` file in the project root with:
